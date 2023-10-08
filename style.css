@@ -1,0 +1,95 @@
+/*soy un comentario*/
+
+/*cambiando el backgound de toda la página*/
+body { /*color de fondo*/
+        background-color:  #edede9;
+        /*fuente*/
+        font-family: "Hind Madurai"; 
+        display: flex;
+    }
+    /*color de texto*/
+    h1{
+        color: #440D0F;
+        
+        
+    h2{
+        color:#d5bdaf;
+    }
+
+    }
+    h3{
+        color: #37505C;
+    }
+
+    a .img-indice:hover{
+        box-shadow: 0 2px 10px gray;
+    } 
+
+     .img-indice {
+        /*ancho del objeto y height es altura*/
+        display: flex;
+        display: inline-block;
+        margin-left: 3%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 15%;
+        height: 15%;
+        border-radius: 100%; /*Todas las imagenes van con esta propiedad*/
+    }
+
+
+    /*Clases (class) siempre llevan . antes del nombre*/
+    .header{
+        width: 100%;
+        height: 300px;
+
+    }
+   
+    .compra {
+        width: 200px;
+        height: 150px;
+        border-radius: 100%;
+        margin-bottom: 10%;
+        
+    }
+
+    a .compra:hover{
+        box-shadow: 0 2px 10px gray;
+    } 
+
+    .autor{
+    font-weight: bold;
+    color: #043625;
+    text-decoration: double;
+    display: flex;
+}
+
+ p{
+    font-size: large;
+    text-align: justify; 
+    padding-right: 40px;
+    margin-left: 0;
+    padding-left: 0; 
+ }
+
+
+ .portadas{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    border-style: dotted;
+    vertical-align: middle;
+    
+}
+
+ul li {
+    list-style: none;
+    
+}
+.alinear{
+    display: flex;
+    list-style: none;
+  
+
+}
+
