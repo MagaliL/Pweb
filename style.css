@@ -2,9 +2,9 @@
 
 /*cambiando el backgound de toda la página*/
 body { /*color de fondo*/
-        background-color:  #edede9;
+        background-color:  #e3e3d5;
         /*fuente*/
-        font-family: "Hind Madurai"; 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
         display: flex;
     }
     /*color de texto*/
@@ -21,6 +21,7 @@ body { /*color de fondo*/
         color: #37505C;
     }
 
+
     a .img-indice:hover{
         box-shadow: 0 2px 10px gray;
     } 
@@ -36,7 +37,7 @@ body { /*color de fondo*/
         height: 15%;
         border-radius: 100%; /*Todas las imagenes van con esta propiedad*/
     }
-
+    
 
     /*Clases (class) siempre llevan . antes del nombre*/
     .header{
@@ -46,15 +47,25 @@ body { /*color de fondo*/
     }
    
     .compra {
+        display: flex;
+        display: inline-block;
         width: 200px;
         height: 150px;
         border-radius: 100%;
+        margin-top: 5%;
         margin-bottom: 10%;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+        
         
     }
 
     a .compra:hover{
         box-shadow: 0 2px 10px gray;
+        padding-right: 40px;
+        
+        
     } 
 
     .autor{
@@ -92,4 +103,20 @@ ul li {
   
 
 }
+
+
+.form-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px; 
+    padding: 20px; 
+}
+
+.formulario {
+    width: 30%;
+    padding: 20px; 
+}
+
+
 
